@@ -1,0 +1,33 @@
+.open {
+  padding: 0px;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+}
+
+.container {
+  display: flex;
+}
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 4px;
+  width: 120px;
+}
+
+.dropdown button {
+  padding: 0.5rem 0;
+  border: 0px;
+  border-bottom: 1px solid black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.dropdown button:hover {
+  background-color: #f2f2f2;
+}
+
+.visible {
+  display: none;
+}
